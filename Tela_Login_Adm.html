@@ -20,23 +20,25 @@
         <h1>Votação Para Representante De Sala</h1>
     </header>
     <div id="tudo">
-        <main class="alunoadm">
-            <div id="quadalunoadm">
-                <h2 class="titadmaluno">Quem está realizando o login?</h2>
-                <a href="#">
-                <div class="quadadm">
-                    <img src="imagens/book-open.png">
-                    <h3>ADMINISTRADOR</h3>
-                    <p>cria votaçoes, administra candidatos à representante e visualiza os votos.</p>
-                </div>
-                </a>
-                <a href="#">
-                <div class="quadaluno">
-                    <img src="imagens/user.png">
-                    <h3>ALUNO</h3>
-                    <p>Pode Votar nos candidatos UMA vez e se candidatar a representante.</p>
-                </div>
-                </a>
+        <main>
+            <div class="titlogin">
+                <img src="imagens/livro.png" title="user" alt="Login Icon">
+                <h2>LOGIN</h2>
+                <h3>PORTAL DO ADMINISTRADOR</h3>
+            </div>
+            <div class="formlog">
+                <form action="#" method="get">
+                    <div class="grupoinput">
+                        <input type="text" name="usuario" id="usuario" placeholder="Usuário (E-mail):">
+                    </div>
+                    <div class="grupoinput">
+                        <input type="password" name="senha" id="senha" placeholder="Senha:">
+                    </div>
+                    <input type="submit" value="ENTRAR">
+                    <div class="forgotpass">
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+                </form>
             </div>
         </main>
     </div>
