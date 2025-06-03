@@ -3,15 +3,8 @@
     padding: 0;
 }
 
-html,
 body {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Cabeçalho */
@@ -119,22 +112,28 @@ header h1 {
     letter-spacing: 1px;
 }
 
-.formlog{
+.formlog {
     text-align: center;
-    padding-top:30px;
+    padding-top: 30px;
 }
-input[type="text"], input[type="password"], ::placeholder{
-    padding:0 10px;
+
+input[type="text"],
+input[type="password"],
+::placeholder {
+    padding: 0 10px;
 }
-input[type="text"], input[type="password"]{
+
+input[type="text"],
+input[type="password"] {
     background-color: #d7c3c3;
     border: 1px solid #d6c3c3;
-    width:30%;
-    height:40px;
+    width: 30%;
+    height: 40px;
     margin-bottom: 30px;
     border-radius: 2px;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     background-color: #6986c5;
     width: 31%;
     padding: 12px;
@@ -145,25 +144,88 @@ input[type="submit"]{
     cursor: pointer;
 }
 
-.forgotpass{
-    margin:30px;
+.forgotpass {
+    margin: 30px;
 }
 
-.forgotpass a{
+.forgotpass a {
     text-decoration: none;
-    color:#666;
+    color: #666;
 }
+
+/*Tela administrador */
+
+.pnadm {
+    background-color: #CCC;
+    width: 25%;
+    border-radius: 30px;
+    height: auto;
+    margin: 5% auto;
+    float: left;
+}
+
+.pnadm h2 {
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    margin: 30px auto;
+    padding-top: 30px;
+}
+
+.pnadm ul {
+    list-style-type: none;
+}
+
+.pnadm ul li {
+    text-align: center;
+    background-color: #B02428;
+    width: 70%;
+    margin: 35px auto;
+    padding: 20px 20px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.pnvot {
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 45%;
+    height: auto;
+    float: right;
+    margin: 2.5% auto;
+}
+
+.pnvot h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px
+}
+
+#gpvot {
+    margin: 5% 0;
+}
+
+.votacao {
+    background-color: #EDC5C6;
+    width: 75%;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+.votacao p {
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
 /* Rodapé */
 
 footer {
     background-color: #B02428;
     height: 130px;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    clear: both;
 }
 
 #logogovsp {
