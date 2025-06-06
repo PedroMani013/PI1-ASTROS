@@ -36,7 +36,6 @@ header h1 {
 
 /* Principal */
 
-
 /* Tela adm ou aluno */
 
 .alunoadm p {
@@ -135,7 +134,7 @@ input[type="password"] {
 }
 
 input[type="submit"] {
-    background-color: #8f99ad;
+    background-color: #798db4;
     width: 31%;
     padding: 12px;
     color: white;
@@ -161,7 +160,7 @@ input[type="submit"] {
     width: 30%;
     border-radius: 30px;
     height: auto;
-    margin:auto;
+    margin: auto;
 }
 
 .pnadm h2 {
@@ -171,12 +170,13 @@ input[type="submit"] {
     margin: 30px auto;
     padding-top: 30px;
 }
-.invisible{
+
+.invisible {
     color: #CCC;
     margin-bottom: 30px;
 }
 
-.pnadm ul{
+.pnadm ul {
     list-style: none;
 }
 
@@ -185,15 +185,85 @@ input[type="submit"] {
     padding: 20px 30px;
 }
 
-.pnadm ul li a{
+.pnadm ul li a {
     background-color: #B02428;
     color: #FFF;
     text-decoration: none;
     font-size: 30px;
-    display:block;
+    display: block;
     padding: 30px;
     border-radius: 30px;
 }
+
+/* Tela Visualização de Votaçoes */
+
+#votacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDC5C6;
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+
+.votactit{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin: 2% auto;
+}
+
+#votacoes p {
+    font-size: 20px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.info p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.visvotadm ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.visvotadm ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.visvotadm ul li a {
+    background-color: #B02428;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+    width: 90%;
+}
+
+.sair{
+    margin: 50px auto;
+    text-align: center;
+    width: 20%;
+}
+.sair a{
+    display: block;
+    font-size: 20px;
+    color: #FFF;
+    background-color: #798db4;
+    padding: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
 /* Rodapé */
 
 footer {
@@ -202,7 +272,7 @@ footer {
     clear: both;
 }
 
-#logogovsp img{
+#logogovsp img {
     clear: left;
     float: left;
     height: 130px;
@@ -213,7 +283,8 @@ footer {
     margin: 20px 40px 0 40px;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
