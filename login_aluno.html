@@ -20,25 +20,29 @@
             </div>
             <h1>Votação Para Representante De Sala</h1>
         </header>
-        <main class="alunoadm">
-            <div id="quadalunoadm">
-                <h2 class="titadmaluno">Quem está realizando o login?</h2>
-                <a href="Tela_Login_Adm.html">
-                    <div class="quadadm">
-                        <img src="imagens/book-open.png">
-                        <h3>ADMINISTRADOR</h3>
-                        <p>cria votaçoes, administra candidatos à representante e visualiza os votos.</p>
+
+        <main>
+            <div class="titlogin">
+                <img src="imagens/user_login.png" title="user" alt="Login Icon">
+                <h2>LOGIN</h2>
+                <h3>PORTAL DO ALUNO</h3>
+            </div>
+            <div class="formlog">
+                <form action="votacoes_aluno.html" method="get">
+                    <div class="grupoinput">
+                        <input type="text" name="usuario" id="usuario" placeholder="Usuário (RA):">
                     </div>
-                </a>
-                <a href="Tela_login_aluno.html">
-                    <div class="quadaluno">
-                        <img src="imagens/user.png">
-                        <h3>ALUNO</h3>
-                        <p>Pode Votar nos candidatos UMA vez e se candidatar a representante.</p>
+                    <div class="grupoinput">
+                        <input type="password" name="senha" id="senha" placeholder="Senha:">
                     </div>
-                </a>
+                    <input type="submit" value="ENTRAR">
+                    <div class="forgotpass">
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
+                </form>
             </div>
         </main>
+
         <footer>
             <div id="logogovsp">
                 <img src="imagens/govsp.png" title="logo_governo">
