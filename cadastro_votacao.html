@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTROS - Sistema de votação</title>
+    <link rel="icon" href="imagens/astros.png">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="tudo">
+        <header>
+            <div id="logofatec">
+                <img src="imagens/fatec.png" title="logo_fatec" width="200" height="80">
+            </div>
+            <div id="logocps">
+                <img src="imagens/cps.png" title="logo_cps" width="125" height="80">
+            </div>
+            <h1>Votação Para Representante De Sala</h1>
+        </header>
+        <main class="backgcadastro">
+            <div id="formcad">
+                <h2>Cadastrar Votação</h2>
+                <form action="painel_administrativo.html" method="get">
+                    <select name="Curso candidatado">
+                        <option value="0">Curso...</option>
+                        <option value="DSM">Desenvolvimento de software multiplataforma</option>
+                        <option value="GPI">Gestão De Produção Industrial</option>
+                        <option value="GE">Gestão Empresarial</option>
+                    </select>
+                    <select name="Curso candidatado">
+                        <option value="0">Semestre...</option>
+                        <option value="1">1º Semestre</option>
+                        <option value="2">2º Semestre</option>
+                        <option value="3">3º Semestre</option>
+                        <option value="4">4º Semestre</option>
+                        <option value="5">5º Semestre</option>
+                        <option value="6">6º Semestre</option>
+                    </select>
+                    <input type="date" name="data" placeholder="Data">
+                    <div class="limitvot">
+                        <p>Limitar a votação apenas ao curso selecionado?</p>
+                        <div class="radio-group">
+                            <label><input type="radio" name="limite_curso" value="sim"> Sim</label>
+                            <label><input type="radio" name="limite_curso" value="nao"> Não</label>
+                        </div>
+                    </div>
+
+                    <div class="limitvot">
+                        <p>Limitar a votação apenas ao semestre selecionado?</p>
+                        <div class="radio-group">
+                            <label><input type="radio" name="limite_semestre" value="sim"> Sim</label>
+                            <label><input type="radio" name="limite_semestre" value="nao"> Não</label>
+                        </div>
+                    </div>
+                    <input type="submit" value="Criar Votação">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div id="logogovsp">
+                <img src="imagens/govsp.png" title="logo_governo" height="130">
+            </div>
+            <div id="logoastros">
+                <img src="imagens/astros.png" title="logo_astros" width="80">
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

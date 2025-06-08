@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTROS - Sistema de votação</title>
+    <link rel="icon" href="imagens/astros.png">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="tudo">
+        <header>
+            <div id="logofatec">
+                <img src="imagens/fatec.png" title="logo_fatec" width="200" height="80">
+            </div>
+            <div id="logocps">
+                <img src="imagens/cps.png" title="logo_cps" width="125" height="80">
+            </div>
+            <h1>Votação Para Representante De Sala</h1>
+        </header>
+        <main class="backgcadastro">
+            <div id="formcad">
+                <h2>Cadastrar Candidatura</h2>
+                <form action="votacoes_aluno.html" method="get">
+                    <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+                    <input type="text" name="RA" id="RA" placeholder="RA">
+                    <input type="text" name="email" id="email" placeholder="E-mail Institucional">
+                    <select name="Curso candidatado">
+                        <option value="0">Selecionar votação...</option>
+                        <option value="vot1">DSM - Xº Semestre</option>
+                        <option value="vot2">GPI - Yº Semestre</option>
+                        <option value="vot3">GE - Zº Semestre</option>
+                    </select>
+                    <div class="uplimg">
+                        <div class="labelimg">
+                            <label>Adicionar imagem?</label>
+                            <label><input type="radio" name="adicionar_imagem" value="sim"> Sim</label>
+                            <label><input type="radio" name="adicionar_imagem" value="nao"> Não</label>
+                        </div>
+                        <div class="upload">
+                            <button type="button">
+                                <span>&#8682;</span> Carregar imagem
+                            </button>
+                        </div>
+                    </div>
+                    <input type="submit" value="Realizar Candidatura">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div id="logogovsp">
+                <img src="imagens/govsp.png" title="logo_governo" height="130">
+            </div>
+            <div id="logoastros">
+                <img src="imagens/astros.png" title="logo_astros" width="80">
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
