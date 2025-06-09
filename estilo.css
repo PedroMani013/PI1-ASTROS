@@ -443,6 +443,77 @@ input[type="password"] {
     gap: 20px;
 }
 
+/* Area De eleição / Administração de candidatos */
+
+#areaelei h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 3%;
+    letter-spacing: 1px;
+}
+
+#candidatos {
+    height: auto;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 60px; 
+    padding: 30px 0;
+    border-radius: 30px;
+}
+
+.candidato {
+    background-color: #FFF;
+    border: 3px solid #ccc;
+    border-radius: 30px;
+    width: 15%;
+    height: auto;
+    text-align: center;
+    margin: 10px;
+    float: none; 
+}
+
+.candidato img{
+    margin: 40px 0;
+}
+
+.candidatotext{
+    background-color: #EDC5C6;
+    border-radius: 0 0 25px 25px;
+}
+
+.candidatotext p{
+    padding: 10px;
+    font-size: 23px;
+}
+
+.botaovot a{
+    text-align: center;
+    text-decoration: none;
+    background-color: #6fd86f;
+    color:#FFF;
+    padding: 3px;
+    margin: auto;
+    display:block;
+    width: 70%;
+    font-size:20px;
+    border-radius: 30px;
+}
+
+.botaoremov a{
+    text-align: center;
+    text-decoration: none;
+    background-color: #B02428;
+    color:#FFF;
+    padding: 3px;
+    margin: auto;
+    display:block;
+    width: 70%;
+    font-size:18px;
+    border-radius: 30px;
+}
 
 /* Rodapé */
 
