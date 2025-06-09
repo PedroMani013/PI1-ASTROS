@@ -515,6 +515,63 @@ input[type="password"] {
     border-radius: 30px;
 }
 
+/* popup confirmando remoção/voto */
+
+.areaeleic{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                      url('imagens/backareadeeleicao.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.admcand{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                      url('imagens/backadmcand.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+#popupconfirm{
+    text-align: center;
+    background-color: #FFF;
+    border: 3px solid #ccc;
+    border-radius: 30px;
+    width: 40%;
+    margin: 10% auto;
+}
+
+#popupconfirm img{
+    margin: 30px
+}
+#popupconfirm h3{
+    font-size: 30px;
+    padding: 20px
+}
+
+#popupconfirm p{
+    width:70%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.botaoconfirm{
+    margin: 50px auto;
+    width: 100%;
+    text-align: center;
+}
+.botaoconfirm a{
+    text-decoration: none;
+    background-color: #6fd86f;
+    color: #FFF;
+    padding: 30px;
+    font-size: 30px;
+    display: block;
+    border-radius: 20px;
+}
+
 /* Rodapé */
 
 footer {
