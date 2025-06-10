@@ -208,7 +208,7 @@ input[type="password"] {
     padding: 20px 30px;
 }
 
-.votactit{
+.votactit {
     text-align: center;
     font-size: 30px;
     letter-spacing: 1px;
@@ -228,18 +228,18 @@ input[type="password"] {
 
 /* Tela Visualização de votos ALUNO */
 
-#visvotaluno ul{
+#visvotaluno ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-#visvotaluno ul li{
-    float:right;
+#visvotaluno ul li {
+    float: right;
     margin: 10px;
 }
 
-#visvotaluno ul li a{
+#visvotaluno ul li a {
     color: #FFF;
     text-align: center;
     text-decoration: none;
@@ -251,11 +251,11 @@ input[type="password"] {
     width: 80%;
 }
 
-.abrvt{
+.abrvt {
     background-color: #798db4;
 }
 
-.cand{
+.cand {
     background-color: #6fd86f;
 }
 
@@ -284,12 +284,13 @@ input[type="password"] {
     width: 90%;
 }
 
-.sair{
+.sair {
     margin: 50px auto;
     text-align: center;
     width: 20%;
 }
-.sair a{
+
+.sair a {
     display: block;
     font-size: 20px;
     color: #FFF;
@@ -301,11 +302,11 @@ input[type="password"] {
 
 /* Cadastro candidato/votação */
 
-.backgcadastro{
+.backgcadastro {
     background-color: #CCC;
 }
 
-#formcad{
+#formcad {
     background-color: #FFF;
     width: 40%;
     margin: 3% auto;
@@ -313,13 +314,13 @@ input[type="password"] {
     text-align: center;
 }
 
-#formcad h2{
+#formcad h2 {
     text-align: center;
     padding: 30px;
     font-size: 30px;
 }
 
-#formcad input[type=text]{
+#formcad input[type=text] {
     width: 80%;
     padding: 20px;
     margin: 20px auto;
@@ -328,7 +329,7 @@ input[type="password"] {
     font-size: 18px;
 }
 
-#formcad select{
+#formcad select {
     width: 86%;
     padding: 20px;
     margin: 10px 0;
@@ -383,7 +384,7 @@ input[type="password"] {
     font-size: 20px;
 }
 
-#formcad input[type="submit"]{
+#formcad input[type="submit"] {
     background-color: #798db4;
     color: #FFF;
     border: none;
@@ -394,7 +395,7 @@ input[type="password"] {
     cursor: pointer;
 }
 
-#formcad input[type="date"]{
+#formcad input[type="date"] {
     width: 80%;
     padding: 20px;
     margin: 10px auto;
@@ -405,8 +406,10 @@ input[type="password"] {
 }
 
 .limitvot input[type="radio"] {
-    transform: scale(1.5); /* aumenta o tamanho dos botões */
-    accent-color: #007BFF; /* azul padrão */
+    transform: scale(1.5);
+    /* aumenta o tamanho dos botões */
+    accent-color: #007BFF;
+    /* azul padrão */
     cursor: pointer;
     margin-right: 6px;
 }
@@ -445,7 +448,7 @@ input[type="password"] {
 
 /* Area De eleição / Administração de candidatos */
 
-#areaelei h2{
+#areaelei h2 {
     text-align: center;
     font-size: 30px;
     margin: 3%;
@@ -458,8 +461,8 @@ input[type="password"] {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
-    gap: 60px; 
+    justify-content: center;
+    gap: 60px;
     padding: 30px 0;
     border-radius: 30px;
 }
@@ -472,68 +475,68 @@ input[type="password"] {
     height: auto;
     text-align: center;
     margin: 10px;
-    float: none; 
+    float: none;
 }
 
-.candidato img{
+.candidato img {
     margin: 40px 0;
 }
 
-.candidatotext{
+.candidatotext {
     background-color: #EDC5C6;
     border-radius: 0 0 25px 25px;
 }
 
-.candidatotext p{
+.candidatotext p {
     padding: 10px;
     font-size: 23px;
 }
 
-.botaovot a{
+.botaovot a {
     text-align: center;
     text-decoration: none;
     background-color: #6fd86f;
-    color:#FFF;
+    color: #FFF;
     padding: 3px;
     margin: auto;
-    display:block;
+    display: block;
     width: 70%;
-    font-size:20px;
+    font-size: 20px;
     border-radius: 30px;
 }
 
-.botaoremov a{
+.botaoremov a {
     text-align: center;
     text-decoration: none;
     background-color: #B02428;
-    color:#FFF;
+    color: #FFF;
     padding: 3px;
     margin: auto;
-    display:block;
+    display: block;
     width: 70%;
-    font-size:18px;
+    font-size: 18px;
     border-radius: 30px;
 }
 
 /* popup confirmando remoção/voto */
 
-.areaeleic{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-                      url('imagens/backareadeeleicao.png');
+.areaeleic {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('imagens/backareadeeleicao.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
 }
 
-.admcand{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-                      url('imagens/backadmcand.PNG');
+.admcand {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url('imagens/backadmcand.PNG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat
 }
 
-#popupconfirm{
+#popupconfirm {
     text-align: center;
     background-color: #FFF;
     border: 3px solid #ccc;
@@ -542,27 +545,29 @@ input[type="password"] {
     margin: 10% auto;
 }
 
-#popupconfirm img{
+#popupconfirm img {
     margin: 30px
 }
-#popupconfirm h3{
+
+#popupconfirm h3 {
     font-size: 30px;
     padding: 20px
 }
 
-#popupconfirm p{
-    width:70%;
+#popupconfirm p {
+    width: 70%;
     text-align: center;
     margin: auto;
     font-size: 20px;
 }
 
-.botaoconfirm{
+.botaoconfirm {
     margin: 50px auto;
     width: 100%;
     text-align: center;
 }
-.botaoconfirm a{
+
+.botaoconfirm a {
     text-decoration: none;
     background-color: #6fd86f;
     color: #FFF;
@@ -571,6 +576,72 @@ input[type="password"] {
     display: block;
     border-radius: 20px;
 }
+
+/* Visualização De Votos */
+
+#boxvotos {
+    width: 90%;
+    margin: 60px auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px 200px;
+    padding: 30px 0;
+}
+
+.votoscand {
+    background-color: #FFF;
+    width: 30%;
+    border-radius: 20px;
+    border: 2px solid #CCC;
+}
+
+.votoscand p {
+    padding: 20px 15px;
+}
+
+.votoscandheader {
+    background-color: #EDC5C6;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+.apurar {
+    margin: 50px auto;
+    text-align: center;
+    width: 50%;
+}
+
+.apurar a {
+    display: block;
+    font-size: 20px;
+    color: #FFF;
+    background-color: #6fd86f;
+    padding: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.voltar{
+    margin: 50px auto;
+    text-align: center;
+    width: 50%;
+    display: block;
+}
+
+.voltar a {
+    display: block;
+    font-size: 20px;
+    color: #FFF;
+    background-color: #798db4;
+    padding: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
 
 /* Rodapé */
 
