@@ -251,12 +251,41 @@ input[type="password"] {
     width: 80%;
 }
 
+#visvotalunoocult ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    opacity: 40%;
+}
+
+#visvotalunoocult ul li {
+    float: right;
+    margin: 10px;
+    
+}
+
+#visvotalunoocult ul li a {
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: not-allowed;
+    width: 80%;
+}
+
 .abrvt {
     background-color: #798db4;
 }
 
 .cand {
     background-color: #6fd86f;
+}
+
+.visvotalunoocult{
+    opacity: 40%;
 }
 
 /* Tela Visualização de votos ADM */
