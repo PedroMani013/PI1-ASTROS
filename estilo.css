@@ -553,14 +553,12 @@ input[type="password"] {
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
         url('imagens/backareadeeleicao.png');
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat
 }
 
 .admcand {
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
         url('imagens/backadmcand.PNG');
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat
 }
@@ -571,7 +569,7 @@ input[type="password"] {
     border: 3px solid #ccc;
     border-radius: 30px;
     width: 40%;
-    margin: 10% auto;
+    margin: 5% auto;
 }
 
 #popupconfirm img {
@@ -600,7 +598,23 @@ input[type="password"] {
     text-decoration: none;
     background-color: #6fd86f;
     color: #FFF;
-    padding: 30px;
+    padding: 20px;
+    font-size: 30px;
+    display: block;
+    border-radius: 20px;
+}
+
+.botaocanc {
+    margin: 50px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.botaocanc a {
+    text-decoration: none;
+    background-color: #B02428;
+    color: #FFF;
+    padding: 20px;
     font-size: 30px;
     display: block;
     border-radius: 20px;
@@ -711,6 +725,30 @@ input[type="password"] {
     color: #A9FF98;
 }
 
+/* Popup esqueceu a senha*/
+
+#forgpasspopup{
+    background-color: #EDC5C6;
+    width: 85%;
+    margin: 2% auto;
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+}
+
+#forgpasspopup p{
+    font-size: 25px;
+    padding: 15px;
+}
+
+#forgpasspopup span{
+    font-size: 22px;
+    padding: 15px;
+}
+
+#forgpasspopup .invisible{
+    color: #EDC5C6;
+}
 /* Rodapé */
 
 footer {
