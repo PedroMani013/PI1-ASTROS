@@ -749,6 +749,43 @@ input[type="password"] {
 #forgpasspopup .invisible{
     color: #EDC5C6;
 }
+
+/* Lista Alunos */
+
+#listavotos {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 2px solid #ccc;
+}
+
+.itemvoto {
+    background-color: #EDC5C6;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemvoto label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.votocheck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    gap: 5px;
+}
+
 /* Rodapé */
 
 footer {
