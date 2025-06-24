@@ -261,7 +261,7 @@ input[type="password"] {
 #visvotalunoocult ul li {
     float: right;
     margin: 10px;
-    
+
 }
 
 #visvotalunoocult ul li a {
@@ -284,7 +284,7 @@ input[type="password"] {
     background-color: #6fd86f;
 }
 
-.visvotalunoocult{
+.visvotalunoocult {
     opacity: 40%;
 }
 
@@ -667,7 +667,7 @@ input[type="password"] {
     text-decoration: none;
 }
 
-.voltar{
+.voltar {
     margin: 50px auto;
     text-align: center;
     width: 50%;
@@ -686,7 +686,7 @@ input[type="password"] {
 
 /*Popups Verdes*/
 
-#greenpopup{
+#greenpopup {
     background-color: #A9FF98;
     color: #034100;
     width: 60%;
@@ -696,37 +696,38 @@ input[type="password"] {
     height: auto;
 }
 
-#greenpopup img{
+#greenpopup img {
     margin: 60px
 }
 
-#greenpopup h2{
+#greenpopup h2 {
     font-size: 50px;
     letter-spacing: 2px;
     padding: 20px
 }
 
-#greenpopup h3{
+#greenpopup h3 {
     font-size: 30px;
     letter-spacing: 1px;
     padding: 30px
 }
 
-#greenpopup p{
+#greenpopup p {
     margin: 40px
 }
-#greenpopup a{
+
+#greenpopup a {
     color: #034100;
     font-size: 20px;
 }
 
-#greenpopup span{
+#greenpopup span {
     color: #A9FF98;
 }
 
 /* Popup esqueceu a senha*/
 
-#forgpasspopup{
+#forgpasspopup {
     background-color: #EDC5C6;
     width: 85%;
     margin: 2% auto;
@@ -735,20 +736,28 @@ input[type="password"] {
     height: auto;
 }
 
-#forgpasspopup p{
+#forgpasspopup p {
     font-size: 25px;
     padding: 15px;
 }
 
-#forgpasspopup span{
+#forgpasspopup span {
     font-size: 22px;
     padding: 15px;
 }
 
-#forgpasspopup .invisible{
+#forgpasspopup .invisible {
     color: #EDC5C6;
 }
 
+#forgpasspopup input[type=text]{
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    width: 45%;
+    padding: 1%;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
 /* Lista Alunos */
 
 #listavotos {

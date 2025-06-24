@@ -22,24 +22,16 @@
         </header>
 
         <main>
-            <div class="titlogin">
-                <img src="imagens/user_login.png" title="user" alt="Login Icon">
-                <h2>LOGIN</h2>
-                <h3>PORTAL DO ALUNO</h3>
+            <div id="forgpasspopup">
+                <p>Insira seu e-mail <b>Institucional</b> no campo abaixo</p>
+                <input type="text" name="email" placeholder="E-mail Institucional (@fatec.sp.gov.br)">
+                <br>
+                <span>ao clicar em "enviar e voltar para tela de login" um e-mail com a nova senha será enviado para sua caixa de entrada</span>
+                <br>
+                <span class="invisible">.</span>
             </div>
-            <div class="formlog">
-                <form action="votacoes_aluno.html" method="get">
-                    <div class="grupoinput">
-                        <input type="text" name="usuario" id="usuario" placeholder="Usuário (RA):">
-                    </div>
-                    <div class="grupoinput">
-                        <input type="password" name="senha" id="senha" placeholder="Senha:">
-                    </div>
-                    <input type="submit" value="ENTRAR">
-                    <div class="forgotpass">
-                        <a href="popup_esqueceu_senha_al.html">Esqueceu a senha?</a>
-                    </div>
-                </form>
+            <div class="sair">
+                <p><a href="login_aluno.html">Enviar e voltar para a tela de login</a></p>
             </div>
         </main>
 
